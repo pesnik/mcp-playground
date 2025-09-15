@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./libs/mcp-utils"
+    },
+    {
+      "path": "./chat"
+    },
+    {
+      "path": "./mcp-backend"
+    }
+  ]
+}
